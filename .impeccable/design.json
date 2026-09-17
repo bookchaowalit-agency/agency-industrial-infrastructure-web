@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "mode": "persuade",
+  "world": "Field manual for physical systems",
+  "artifact": "fieldmanual",
+  "tokens": {
+    "color": {
+      "bg": "#e7e3d8",
+      "ink": "#202724",
+      "muted": "#5c655f",
+      "line": "#a9ada1",
+      "panel": "#d5d1c5",
+      "accent": "#bb542d",
+      "inverse": "#242d28",
+      "inverseInk": "#f1eee4"
+    },
+    "typography": {
+      "display": "Noto Serif Thai",
+      "body": "Noto Sans Thai",
+      "utility": "system monospace"
+    },
+    "spacing": {
+      "page": "clamp(18px, 5vw, 76px)",
+      "section": "clamp(67px, 10vw, 144px)"
+    },
+    "shape": {
+      "radius": "world-specific",
+      "elevation": "one deliberate surface system"
+    }
+  }
+}
