@@ -22,6 +22,7 @@ export const site = {
   "status": "target",
   "design": {
     "projectName": "solo-agency-industrial-infrastructure",
+    "productionUrl": "https://solo-agency-industrial-infrastructu.vercel.app",
     "archetype": "fieldmanual",
     "motif": "fieldmanual",
     "world": "Field manual for physical systems",
