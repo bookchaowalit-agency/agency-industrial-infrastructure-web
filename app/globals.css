@@ -1,18 +1,3 @@
-:root {
-  --bg: #e7e3d8;
-  --ink: #202724;
-  --muted: #525a55;
-  --line: #a9ada1;
-  --panel: #d5d1c5;
-  --accent: #bb542d;
-  --inverse: #242d28;
-  --inverse-ink: #f1eee4;
-  --sans: var(--font-sans-thai), Arial, sans-serif;
-  --serif: var(--font-serif-thai), Georgia, 'Times New Roman', serif;
-  --mono: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;
-  --display: var(--serif);
-}
-
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body { margin: 0; color: var(--ink); background: var(--bg); font-family: var(--sans); }

@@ -51,7 +51,7 @@ export default function HomePage() {
   return (
     <div className={`site-shell archetype-${site.design.archetype}`} data-site={site.slug}>
       <header className="site-header">
-        <a className="brand" href="#top">
+        <a className="brand" href="https://bookchaowalit.com">
           <span className="brand-mark" aria-hidden="true">{String(site.number).padStart(2, '0')}</span>
           <span><strong>{site.name}</strong><small>{site.thaiName}</small></span>
         </a>
@@ -67,10 +67,10 @@ export default function HomePage() {
               <a className="primary-link" href="#offer">{site.cta}<span className="link-mark" aria-hidden="true" /></a>
               {locked ? <span className="status-badge">ยังไม่เปิดรับงาน</span> : null}
             </div>
-            {/* No portfolio link here: the readiness note below holds the page's one link to it (pSEO plan). */}
+            {/* The readiness note offers an in-context shortcut to the wider portfolio. */}
             {locked ? <p className="locked-note">{site.fit}</p> : null}
-            <Link className="pseo-home-link" href={servicePath}>ดู service page <span aria-hidden="true">↗</span></Link>
             <div className="hero-meta"><span lang="en">{site.design.material}</span><span>showcase / {site.stage}</span></div>
+            <Link className="pseo-home-link" href={servicePath}>ดู service page <span aria-hidden="true">↗</span></Link>
           </div>
           <div className="hero-art">
             <Artifact />
@@ -103,7 +103,7 @@ export default function HomePage() {
           <div className="readiness-note"><strong>{readiness.label}</strong><p>{readiness.note}</p>{/* No inquiry call to action until the readiness gate opens intake (AGENTS.md); point to the portfolio instead. */}<a className="readiness-link" href={portfolioHref}>ดูทั้ง 14 กลุ่มงาน <span aria-hidden="true">↗</span></a><span>{site.stage} / {site.status}</span></div>
         </section>
 
-        <footer className="site-footer"><span>SE / {site.name}</span><span>public showcase · content-safe · no client claims</span><SiteLinks /></footer>
+        <footer className="site-footer"><span>SE / {site.name}</span><span>public showcase · content-safe · no client claims</span><SiteLinks includeHubAndPortfolio /></footer>
       </main>
     </div>
   );
