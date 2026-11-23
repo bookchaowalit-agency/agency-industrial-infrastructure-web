@@ -1,0 +1,29 @@
+/* Industrial & Infrastructure theme: values for the shared design-floor tokens. */
+:root {
+  --color-bg: #e7e3d8;
+  --color-surface: #d5d1c5;
+  --color-fg: #202724;
+  --color-fg-muted: #525a55;
+  --color-accent: #bb542d;
+  --color-accent-fg: #ffffff;
+  --color-border: #a9ada1;
+  --color-focus: #202724;
+
+  --bg: var(--color-bg);
+  --panel: var(--color-surface);
+  --ink: var(--color-fg);
+  --muted: var(--color-fg-muted);
+  --accent: var(--color-accent);
+  --accent-text: #904123;
+  --line: var(--color-border);
+  --focus: var(--color-focus);
+  --inverse: #242d28;
+  --inverse-ink: #f1eee4;
+
+  --font-sans: var(--font-sans-thai), Arial, sans-serif;
+  --font-serif: var(--font-serif-thai), Georgia, 'Times New Roman', serif;
+  --sans: var(--font-sans);
+  --serif: var(--font-serif);
+  --mono: var(--font-mono);
+  --display: var(--serif);
+}
